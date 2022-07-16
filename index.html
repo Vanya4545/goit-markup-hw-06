@@ -66,7 +66,7 @@
          
           <input class="modal-input" type="text" name="name" id="name">
           <svg class="icon-input-modal" aria-hidden="true" width="18" height="18">
-            <use href="./images/icons.svg#icon-men"></use>
+            <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
           </svg>
           
          
@@ -79,7 +79,7 @@
 
           <input class="modal-input" type="tel" name="number" id="number">
           <svg class="icon-input-modal" aria-hidden="true" width="18" height="18">
-            <use href="./images/icons.svg#icon-fone"></use>
+            <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
           </svg>
          </div>
           
@@ -88,19 +88,24 @@
 
             <input class="modal-input" type="text" name="envelope" id="envelope">
             <svg class="icon-input-modal" aria-hidden="true" width="18" height="18">
-              <use href="./images/icons.svg#icon-mail"></use>
+              <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
             </svg>
           </div>
           
           <div class="form-field">
             <label class="modal-label" for="comment">Коментар</label>
-            <input class="modal-input-comment" type="text" name="name" id="comment" placeholder="Введіть текст">
+            <textarea class="modal-input-comment"  name="name" id="comment" placeholder="Введіть текст"> </textarea>
           </div>
         
 
          <div class="form-checkbox">
-          <input class="checkbox" type="checkbox" name="name" id="checkbox" disabled>
-          <label for="checkbox">Погоджуюся з розсилкою та приймаю <a class="contract" href="#"> Умови договору </a> </label>
+          
+          <label> 
+            <input class="checkbox-input" type="checkbox" name="topic" value="Погоджуюся з розсилкою та приймаю"> Погоджуюся з розсилкою та приймаю 
+            <a class="contract" href="#"> Умови договору </a> 
+          <span class="check-box"></span>
+        </label>
+         
          </div>
 
          <div class="form-field">
@@ -357,7 +362,7 @@
           <input type="email" name="email" placeholder="E-mail" id="email" class="subscribe-input">
     
     <button type="submit" class="subscribe-footer-button">Підписатися<svg class="subscribe-icon" aria-label="telegram" width="24" height="24">
-      <use href="./images/icons.svg#icon-telegram"></use>
+      <use href="./images/icons.svg#icon-icontelegramm"></use>
     </svg></button>
   </form>
 </div>
